@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="nook. is an educational shopping website with an XML catalogue, cart, checkout, and demo accounts.">
+  <title>Contact | nook. — Lab 12</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <script type="module" src="app.js"></script>
+</head>
+<body data-page="contact">
+  <div class="promo">LAB 12 DEMO STORE &middot; FREE DELIVERY FROM &#8377;2,500</div>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="nook home">nook<span>.</span></a>
+    <button id="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav">Menu</button>
+    <nav id="main-nav" aria-label="Main navigation">
+      <a href="products.html">Shop</a>
+      <a href="index.html#story">Our story</a>
+      <a href="contact.html">Contact</a>
+      <a href="account.html" id="account-label">Account</a>
+      <a class="cart-link" href="cart.html">Bag <span id="cart-count">0</span></a>
+    </nav>
+  </header>
+  <main>
+    <noscript><p class="notice">Please enable JavaScript to load products and try the shopping demo.</p></noscript>
+    <p id="page-error" class="notice" role="alert" hidden></p>
+<section class="page-heading"><p class="eyebrow">LET'S TALK</p><h1>A hello goes a long way.</h1><p class="subtitle">Questions, thoughts, or a little feedback? Try our demonstration contact form.</p></section>
+<div class="contact-layout"><aside class="contact-copy"><h2>Find your nook.</h2><p class="subtitle">This is an educational store, built to demonstrate a complete shopping website with HTML, CSS, JavaScript, and XML.</p><dl><dt>Demo email</dt><dd>hello@nook.example</dd><dt>About this form</dt><dd>Messages are demonstrations and are not sent to a business.</dd><dt>Prefer to browse?</dt><dd><a href="products.html">Explore the collection &rarr;</a></dd></dl></aside><section class="contact-panel"><h2>Drop us a note.</h2><p id="contact-confirmation" class="notice contact-confirmation" role="status" tabindex="-1" hidden>Thank you! Your demonstration form was submitted. No message was sent.</p><form id="contact-form" action="contact.html" method="post"><div class="field"><label for="contact-name">Your name</label><input id="contact-name" name="name" autocomplete="name" maxlength="100" required></div><div class="field"><label for="contact-email">Email</label><input id="contact-email" name="email" type="email" autocomplete="email" required></div><div class="field"><label for="contact-message">Message</label><textarea id="contact-message" name="message" minlength="10" maxlength="2000" placeholder="Tell us what's on your mind..." required></textarea></div><button id="contact-submit" class="button full-width" type="submit" disabled>Submit demo message <span aria-hidden="true">&rarr;</span></button></form></section></div>
+  </main>
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div><a class="brand" href="index.html">nook<span>.</span></a><p>Good things for everyday living.</p></div>
+      <nav class="footer-links" aria-label="Footer navigation"><a href="products.html">Products</a><a href="cart.html">Shopping bag</a><a href="account.html">Login / Register</a><a href="contact.html">Contact us</a></nav>
+    </div>
+    <div class="footer-bottom">Lab 12 &middot; HTML, CSS, JavaScript &amp; XML &middot; Educational demo: no real payments or messages.</div>
+  </footer>
+  <div id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

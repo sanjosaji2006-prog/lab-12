@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='utf-8'?>
+<catalogue currency="INR">
+  <product id="headphones">
+    <name>Quiet tone headphones</name>
+    <category>Audio</category>
+    <price>2499</price>
+    <stock>8</stock>
+    <image>headphones.svg</image>
+    <color>#e8edec</color>
+    <badge>Popular</badge>
+    <description>Settle into your playlist with a simple, comfortable pair of over-ear headphones.</description>
+    <features>
+      <feature>Soft over-ear cushions</feature>
+      <feature>Foldable everyday frame</feature>
+      <feature>Includes a 3.5 mm audio cable</feature>
+    </features>
+  </product>
+  <product id="bottle">
+    <name>Everyday bottle</name>
+    <category>Everyday</category>
+    <price>699</price>
+    <stock>20</stock>
+    <image>bottle.svg</image>
+    <color>#edf0e5</color>
+    <badge>New</badge>
+    <description>A reusable bottle that brings a little colour to your daily routine.</description>
+    <features>
+      <feature>500 ml capacity</feature>
+      <feature>Matte sage finish</feature>
+      <feature>Easy screw-top lid</feature>
+    </features>
+  </product>
+  <product id="backpack">
+    <name>Daybreak backpack</name>
+    <category>Everyday</category>
+    <price>1599</price>
+    <stock>12</stock>
+    <image>backpack.svg</image>
+    <color>#ece9df</color>
+    <badge />
+    <description>A roomy everyday companion for work, study, and weekend plans.</description>
+    <features>
+      <feature>18 litre main compartment</feature>
+      <feature>Padded shoulder straps</feature>
+      <feature>Handy front pocket</feature>
+    </features>
+  </product>
+  <product id="lamp">
+    <name>Arc desk lamp</name>
+    <category>Workspace</category>
+    <price>1299</price>
+    <stock>7</stock>
+    <image>lamp.svg</image>
+    <color>#ede7de</color>
+    <badge />
+    <description>Bring a warm little glow to your reading corner or working desk.</description>
+    <features>
+      <feature>Compact desk-friendly base</feature>
+      <feature>Angled shade profile</feature>
+      <feature>Warm-tone lighting design</feature>
+    </features>
+  </product>
+  <product id="notebook">
+    <name>Pocket notebook</name>
+    <category>Workspace</category>
+    <price>349</price>
+    <stock>40</stock>
+    <image>notebook.svg</image>
+    <color>#ede9df</color>
+    <badge />
+    <description>A small place for big ideas, quick notes, and everyday sketches.</description>
+    <features>
+      <feature>A5 notebook size</feature>
+      <feature>120 unlined pages</feature>
+      <feature>Soft cloth-style cover</feature>
+    </features>
+  </product>
+  <product id="tote">
+    <name>Canvas carry tote</name>
+    <category>Everyday</category>
+    <price>599</price>
+    <stock>15</stock>
+    <image>tote.svg</image>
+    <color>#eee9df</color>
+    <badge />
+    <description>Keep the daily essentials close with a light, simple carry bag.</description>
+    <features>
+      <feature>Roomy open-top design</feature>
+      <feature>Comfortable carry handles</feature>
+      <feature>Natural canvas colour</feature>
+    </features>
+  </product>
+  <product id="mug">
+    <name>Morning ceramic mug</name>
+    <category>Everyday</category>
+    <price>499</price>
+    <stock>25</stock>
+    <image>mug.svg</image>
+    <color>#e7ebe1</color>
+    <badge />
+    <description>Make a little more room for a slow morning and your favourite drink.</description>
+    <features>
+      <feature>350 ml capacity</feature>
+      <feature>Matte ceramic-style finish</feature>
+      <feature>Easy-grip rounded handle</feature>
+    </features>
+  </product>
+  <product id="tray">
+    <name>Desk catch-all tray</name>
+    <category>Workspace</category>
+    <price>799</price>
+    <stock>10</stock>
+    <image>tray.svg</image>
+    <color>#e2e9e5</color>
+    <badge />
+    <description>A tidy landing spot for pens, small notes, and the little things on your desk.</description>
+    <features>
+      <feature>Compact rectangular shape</feature>
+      <feature>Raised edges</feature>
+      <feature>Soft forest-green colour</feature>
+    </features>
+  </product>
+</catalogue>

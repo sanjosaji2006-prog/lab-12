@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="nook. is an educational shopping website with an XML catalogue, cart, checkout, and demo accounts.">
+  <title>Everyday essentials | nook. — Lab 12</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <script type="module" src="app.js"></script>
+</head>
+<body data-page="home">
+  <div class="promo">LAB 12 DEMO STORE &middot; FREE DELIVERY FROM &#8377;2,500</div>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="nook home">nook<span>.</span></a>
+    <button id="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav">Menu</button>
+    <nav id="main-nav" aria-label="Main navigation">
+      <a href="products.html">Shop</a>
+      <a href="index.html#story">Our story</a>
+      <a href="contact.html">Contact</a>
+      <a href="account.html" id="account-label">Account</a>
+      <a class="cart-link" href="cart.html">Bag <span id="cart-count">0</span></a>
+    </nav>
+  </header>
+  <main>
+    <noscript><p class="notice">Please enable JavaScript to load products and try the shopping demo.</p></noscript>
+    <p id="page-error" class="notice" role="alert" hidden></p>
+<section class="hero">
+  <div class="hero-copy"><p class="eyebrow">THE EVERYDAY COLLECTION</p><h1>Good things.<br>Everyday living.</h1><p class="subtitle">A little comfort. A little character. Discover useful essentials for your desk, your day, and everything in between.</p><a class="button" href="products.html">Shop the collection <span aria-hidden="true">&rarr;</span></a><p class="hero-footnote">Eight curated essentials. One thoughtfully simple collection.</p></div>
+  <div class="hero-visual"><img src="hero.svg" alt="Original illustrations of headphones, a bottle, and a notebook arranged together"></div>
+</section>
+<section class="benefits" aria-label="Store benefits"><div><strong>Everyday essentials</strong><span>A collection of 8 products</span></div><div><strong>Free delivery</strong><span>On orders from &#8377;2,500</span></div><div><strong>Shop your way</strong><span>Guest checkout available</span></div></section>
+<section><div class="section-heading"><div><p class="eyebrow">A FEW FAVOURITES</p><h2>Find your everyday.</h2></div><a href="products.html">Explore all products &rarr;</a></div><div id="featured-products" class="product-grid"><p>Loading products...</p></div></section>
+<section class="story" id="story"><div><p class="eyebrow">A SMALL STORE, A SIMPLE IDEA</p><h2>Make room for<br>the useful things.</h2></div><p>nook. is a demo collection of practical objects with a little personality. This web programming project brings a complete shopping journey to life, from an XML catalogue to your shopping bag.</p></section>
+  </main>
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div><a class="brand" href="index.html">nook<span>.</span></a><p>Good things for everyday living.</p></div>
+      <nav class="footer-links" aria-label="Footer navigation"><a href="products.html">Products</a><a href="cart.html">Shopping bag</a><a href="account.html">Login / Register</a><a href="contact.html">Contact us</a></nav>
+    </div>
+    <div class="footer-bottom">Lab 12 &middot; HTML, CSS, JavaScript &amp; XML &middot; Educational demo: no real payments or messages.</div>
+  </footer>
+  <div id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
